@@ -8,7 +8,6 @@
 
 ---
 
-## Project Tagline
 Find nearby cafes on an interactive map with React and Leaflet.js.
 
 ---
@@ -84,5 +83,4 @@ console.log(distance.toFixed(2)); // ~0.14 km
 
 ```
 
----
 
