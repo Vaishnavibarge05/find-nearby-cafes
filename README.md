@@ -1,9 +1,10 @@
 # Find Nearby Cafes ☕
-"Find nearby cafes on an interactive map with React and Leaflet.js.”
+
+Find nearby cafes on an interactive map with React and Leaflet.js.
 
 **Find Nearby Cafes** is an interactive web application built with **React** and **Leaflet.js** that helps users easily discover cafes near their current location. The app combines real-time geolocation, an interactive map, and a sidebar list for a smooth and intuitive experience.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Features
 
@@ -13,7 +14,7 @@
 - **Distance filtering:** Filter cafes within a selected radius using a slider.
 - **Visual enhancements:** Gradient sidebar, hover effects, distance badges, and radius circle for nearby cafes.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+----
 
 ## Setup & Run Locally
 
@@ -22,3 +23,23 @@
 git clone https://github.com/vaishnavibarge05/find-nearby-cafes.git
 cd find-nearby-cafes
 
+2. **Install dependencies:** 
+```bash
+npm install
+
+3. **Run the development server:**
+```bash
+npm run dev
+
+4. **Open in Browser:**
+Go to http://localhost:5173/
+----
+## Future Enhancements
+
+- **Fetch cafe data dynamically from an API.**
+- **Make the sidebar mobile-responsive.**
+- **Add a search feature for cafes.**
+- **Display walking/driving distance using a routing API.**
+
+## **Author:** Vaishnavi Barge
+## **GitHub:** Vaishnavibarge05
