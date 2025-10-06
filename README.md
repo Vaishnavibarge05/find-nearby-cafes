@@ -1,18 +1,23 @@
-# React + Vite
+# Find Nearby Cafes ☕
+"Find nearby cafes on an interactive map with React and Leaflet.js.”
+**Find Nearby Cafes** is an interactive web application built with **React** and **Leaflet.js** that helps users easily discover cafes near their current location. The app combines real-time geolocation, an interactive map, and a sidebar list for a smooth and intuitive experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+----------------------------------------------------------------------------------------------------------------------------------------
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User location detection:** The map centers automatically on the user’s current position.
+- **Dynamic cafe markers:** Interactive markers display cafe name, address, and distance.
+- **Sidebar cafe list:** Click any cafe to pan the map to its location.
+- **Distance filtering:** Filter cafes within a selected radius using a slider.
+- **Visual enhancements:** Gradient sidebar, hover effects, distance badges, and radius circle for nearby cafes.
 
-## React Compiler
+----------------------------------------------------------------------------------------------------------------------------------------
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Setup & Run Locally
 
-Note: This will impact Vite dev & build performances.
+1. **Clone the repository:**  
+```bash
+git clone https://github.com/<your-username>/find-nearby-cafes.git
+cd find-nearby-cafes
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
