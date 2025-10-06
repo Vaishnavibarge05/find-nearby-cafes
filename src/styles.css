@@ -1,0 +1,114 @@
+/* Global styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 320px;
+  padding: 20px;
+  background: linear-gradient(180deg, #4facfe, #00f2fe);
+  color: #fff;
+  overflow-y: auto;
+  box-shadow: 3px 0px 10px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.filter-slider {
+  margin-bottom: 16px;
+}
+
+.filter-slider input[type=range] {
+  width: 100%;
+}
+
+/* Cafe items */
+.cafe-item {
+  background-color: rgba(255,255,255,0.9);
+  color: #333;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.cafe-item:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,1);
+}
+
+.cafe-item.selected {
+  background-color: #ffd700;
+  color: #333;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+
+.cafe-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cafe-address {
+  font-size: 13px;
+  color: #555;
+}
+
+/* Distance badge */
+.cafe-distance {
+  background-color: #4facfe;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 3px;
+}
+
+/* Map */
+.map-container {
+  flex: 1;
+  height: 100vh;
+}
+
+/* Highlighted marker */
+.leaflet-marker-icon.highlighted-marker {
+  filter: hue-rotate(200deg);
+}
+
+/* Popup font */
+.leaflet-popup-content-wrapper {
+  font-size: 14px;
+  font-weight: 500;
+}
+.leaflet-popup-content b {
+  color: #4facfe;
+}

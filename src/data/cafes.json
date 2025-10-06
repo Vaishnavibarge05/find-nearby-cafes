@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "☕ Brew & Beans", "address": "MG Road, Pune", "lat": 18.5196, "lng": 73.8553 },
+  { "id": 2, "name": "☕ Cafe Aroma", "address": "FC Road, Pune", "lat": 18.5167, "lng": 73.8410 },
+  { "id": 3, "name": "☕ The Coffee Nest", "address": "Koregaon Park, Pune", "lat": 18.5362, "lng": 73.9020 },
+  { "id": 4, "name": "☕ Latte & Chill", "address": "Viman Nagar, Pune", "lat": 18.5660, "lng": 73.9128 },
+  { "id": 5, "name": "☕ Mochaccino House", "address": "Baner, Pune", "lat": 18.5676, "lng": 73.7809 },
+  { "id": 6, "name": "☕ Cafe Solace", "address": "Kalyani Nagar, Pune", "lat": 18.5406, "lng": 73.8902 },
+  { "id": 7, "name": "☕ Espresso Express", "address": "Hadapsar, Pune", "lat": 18.5027, "lng": 73.9135 }
+]
