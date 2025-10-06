@@ -19,6 +19,6 @@
 
 1. **Clone the repository:**  
 ```bash
-git clone https://github.com/<your-username>/find-nearby-cafes.git
+git clone https://github.com/<vaishnavibarge05>/find-nearby-cafes.git
 cd find-nearby-cafes
 
