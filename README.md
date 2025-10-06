@@ -1,5 +1,6 @@
 # Find Nearby Cafes ☕
 "Find nearby cafes on an interactive map with React and Leaflet.js.”
+
 **Find Nearby Cafes** is an interactive web application built with **React** and **Leaflet.js** that helps users easily discover cafes near their current location. The app combines real-time geolocation, an interactive map, and a sidebar list for a smooth and intuitive experience.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
